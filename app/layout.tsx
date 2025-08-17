@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Apud",
-  description: "A small, simple tool to calculate the price of pizza by the square inch.",
+  description:
+    "A small, simple tool to calculate the price of pizza by the square inch.",
 };
 
 export default function RootLayout({
