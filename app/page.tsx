@@ -170,13 +170,13 @@ export default function Pizza() {
                     <div>
                       Price per square inch (excluding crust): $
                       {Number(
-                        responseData.data.pricePerSquareInchWithoutCrust
+                        responseData.data.pricePerSquareInchWithoutCrust,
                       ).toFixed(2)}
                     </div>
                     <div>
                       Percent of pizza that is crust:{" "}
                       {Number(responseData.data.percentOfPizzaIsCrust).toFixed(
-                        2
+                        2,
                       )}
                       %
                     </div>

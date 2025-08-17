@@ -6,7 +6,7 @@ export async function POST(request: Request) {
     if (!pizzaSize || !pizzaCost) {
       return Response.json(
         { error: "Pizza size and cost are required" },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
