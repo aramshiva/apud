@@ -70,7 +70,7 @@ export default function Pizza() {
       <div className="flex flex-col">
         <div>
           <p className="font-bold text-2xl font-[Gosha] lowercase pb-1">APUD</p>
-          <p>
+          <p className="text-gray-500 text-sm">
             A small, simple tool to calculate the price of pizza by the square
             inch.
           </p>
