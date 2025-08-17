@@ -33,6 +33,7 @@ interface PizzaResponse {
 
 export default function Pizza() {
   const [responseData, setResponseData] = useState<PizzaResponse | null>(null);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [isLoading, setIsLoading] = useState(false);
 
   const form = useForm<z.infer<typeof FormSchema>>({
